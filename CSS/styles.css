@@ -1,0 +1,183 @@
+body{
+    color: #40514e;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+
+}
+  /* NOTE !!! as in 100% = 16px so we need to done it 90px so 90 / 16 = 562.5 * ( AND ) 1em = 100% = 16px */ 
+  /* for examples rems > we need 40px so 40 divided by 16 > 2.5 rem */
+h1{
+    font-size:  5.625rem;          
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+}
+
+h1:hover{
+    color: #FF8400;
+}
+
+.full:hover{
+    color: #FF8400;
+
+}
+
+.hoveraswell:hover{
+    color: #FF8400;
+
+}
+
+.orange1:hover{
+    color: #FF8400;
+
+}
+
+h2{
+
+    font-size: 2.5rem;
+font-family: 'Montserrat', sans-serif;
+font-weight: normal;
+padding-bottom: 12px;
+}
+
+h3{
+   
+    font-family: 'Montserrat', sans-serif;
+}
+
+h4{
+    padding-bottom: 70px;
+}
+
+p{
+    line-height: 2;
+}
+
+hr{
+    border: dotted #3B185F 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+a{
+    color: #3B185F;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: aqua;
+}
+
+.copyright{ 
+    color: azure;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+
+.full{
+    text-decoration: underline;
+}
+
+.top-container{
+    background-color: #3B185F;
+    margin: 0 0 0 0;
+    position: relative;
+    padding-top: 100px;
+}
+
+
+
+.middle-container{
+    margin: 100px 0;
+}
+
+.bottom-container {
+    background-color:  #e68815;
+    padding: 50px 0 20px;
+}
+
+
+.intro{
+    width: 30%;
+    margin: auto;
+
+}
+
+.bgbest{
+    height: 600px;
+    width: 800px;
+    background: none;
+}
+
+.akki{
+    height: 200x;
+    width: 200px;
+}
+
+
+.bottom-cloud{
+    position: absolute;
+    left: 60px;
+    bottom: 300px;
+
+}
+
+.Top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 40px; 
+}
+
+
+.design-and-development{
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin-right: 7%;
+}
+
+.sales-skills{
+    height: 200px;
+    width: 200px;
+    float: right;
+    margin-left: 7%;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    
+}
+
+.btn {
+    background: #d934d3;
+    background-image: -webkit-linear-gradient(top, #d934d3, #e68815);
+    background-image: -moz-linear-gradient(top, #d934d3, #e68815);
+    background-image: -ms-linear-gradient(top, #d934d3, #e68815);
+    background-image: -o-linear-gradient(top, #d934d3, #e68815);
+    background-image: linear-gradient(to bottom, #d934d3, #e68815);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3B185F;
+    background-image: -webkit-linear-gradient(top, #3B185F, #d934d9);
+    background-image: -moz-linear-gradient(top, #3B185F, #d934d9);
+    background-image: -ms-linear-gradient(top, #3B185F, #d934d9);
+    background-image: -o-linear-gradient(top, #3B185F, #d934d9);
+    background-image: linear-gradient(to bottom, #3B185F, #d934d9);
+    text-decoration: none;
+  }
+
+
